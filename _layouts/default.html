@@ -2,7 +2,9 @@
 <html class="t-{{ site.themeColor }}">
   {% include head.html %}
   <body>
-    {% include navigation.html %}
+    {% if site.navigation and site.navigation.length %}
+      {% include navigation.html %}
+    {% endif %}
 
     {{ content }}
 
