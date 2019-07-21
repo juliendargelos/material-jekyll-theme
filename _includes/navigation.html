@@ -1,7 +1,7 @@
 <nav class="c-navigation {% if site.fixedNav == 'true' %}is-fixed{% endif %}">
   <div class="c-navigation__container u-container">
     {% for link in site.navigation  %}
-      <a class="c-navigation__item {% if page.url == link[1] %}is-active{% endif %}" href="{{ link[1] | prepend: site.baseurl }}">{{ link[0] }}</a>
+      <a class="c-navigation__item {% if page.url[0...-2] == link[1] %}is-active{% endif %}" href="{{ link[1] | prepend: site.baseurl }}">{{ link[0] }}</a>
     {% endfor %}
   </div>
 </nav>
