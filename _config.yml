@@ -22,6 +22,12 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/material-jekyll-theme" # the subpath of your site, e.g. /blog
 url: "https://juliendargelos.github.io" # the base hostname & protocol for your site
 
+# Navigation
+navgigation:
+  - Home: /
+  - Articles: /articles
+  - About: /about
+
 # Social
 githubUsername:
 twitterUsername:
