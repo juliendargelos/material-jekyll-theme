@@ -24,9 +24,9 @@ url: "https://juliendargelos.github.io" # the base hostname & protocol for your 
 
 # Navigation
 navigation:
-  - Home: /
-  - Articles: /articles
-  - About: /about
+  Home: /
+  Articles: /articles
+  About: /about
 
 # Social
 githubUsername:
