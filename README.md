@@ -23,7 +23,6 @@ Customize your options within the `_config.yml` file.
   + Purple
   + Grey
 + Navigation
-  Label: Path
 + Fixed Navigation
   + True
   + False
