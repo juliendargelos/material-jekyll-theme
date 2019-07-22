@@ -23,7 +23,7 @@ baseurl: "/material-jekyll-theme" # the subpath of your site, e.g. /blog
 url: "https://juliendargelos.github.io" # the base hostname & protocol for your site
 
 # Navigation
-navgigation:
+navigation:
   - Home: /
   - Articles: /articles
   - About: /about
